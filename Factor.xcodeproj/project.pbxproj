@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B020882124A4DD3500F911A9 /* shabnam_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B020881E24A4DD3400F911A9 /* shabnam_regular.ttf */; };
+		B020882224A4DD3500F911A9 /* shabnam_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B020881F24A4DD3400F911A9 /* shabnam_bold.ttf */; };
+		B020882324A4DD3500F911A9 /* shabnam_light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B020882024A4DD3400F911A9 /* shabnam_light.ttf */; };
 		B0E5BB5424A4987A00C20767 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E5BB5324A4987A00C20767 /* AppDelegate.swift */; };
 		B0E5BB5624A4987A00C20767 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E5BB5524A4987A00C20767 /* SceneDelegate.swift */; };
 		B0E5BB5824A4987A00C20767 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E5BB5724A4987A00C20767 /* ContentView.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B020881E24A4DD3400F911A9 /* shabnam_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = shabnam_regular.ttf; sourceTree = "<group>"; };
+		B020881F24A4DD3400F911A9 /* shabnam_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = shabnam_bold.ttf; sourceTree = "<group>"; };
+		B020882024A4DD3400F911A9 /* shabnam_light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = shabnam_light.ttf; sourceTree = "<group>"; };
 		B0E5BB5024A4987A00C20767 /* Factor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Factor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E5BB5324A4987A00C20767 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0E5BB5524A4987A00C20767 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +82,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B020882424A4DD3B00F911A9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B020881F24A4DD3400F911A9 /* shabnam_bold.ttf */,
+				B020882024A4DD3400F911A9 /* shabnam_light.ttf */,
+				B020881E24A4DD3400F911A9 /* shabnam_regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		B0E5BB4724A4987A00C20767 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +115,7 @@
 		B0E5BB5224A4987A00C20767 /* Factor */ = {
 			isa = PBXGroup;
 			children = (
+				B020882424A4DD3B00F911A9 /* Fonts */,
 				B0E5BB5324A4987A00C20767 /* AppDelegate.swift */,
 				B0E5BB5524A4987A00C20767 /* SceneDelegate.swift */,
 				B0E5BB5724A4987A00C20767 /* ContentView.swift */,
@@ -240,8 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B020882224A4DD3500F911A9 /* shabnam_bold.ttf in Resources */,
 				B0E5BB6024A4987C00C20767 /* LaunchScreen.storyboard in Resources */,
+				B020882324A4DD3500F911A9 /* shabnam_light.ttf in Resources */,
 				B0E5BB5D24A4987C00C20767 /* Preview Assets.xcassets in Resources */,
+				B020882124A4DD3500F911A9 /* shabnam_regular.ttf in Resources */,
 				B0E5BB5A24A4987C00C20767 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
